@@ -1,4 +1,10 @@
+Very simple HTML and CSS webpage, chose Yuri Gagarin as the 12th of April was the anniversary of Vostok 1's complete orbit of Earth
 
+See on Codepen: https://codepen.io/charliedavidhoward/pen/qBRoYbQ
+
+
+
+FreeCodeCamp brief:
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
