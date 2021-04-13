@@ -9,13 +9,14 @@ body {
 }
 
 #img-div {
-  display: block;
   text-align: center;
+  width: 100%;
 }
 
 img {
-  max-width: 35%;
+  display: block;
   height: auto;
+  max-width: 100%;
 }
 
 #tribute-info {
