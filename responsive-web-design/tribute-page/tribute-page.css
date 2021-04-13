@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(180deg, #bdbdbd, white);
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px; 
+}
+
+#img-div {
+  display: block;
+  text-align: center;
+}
+
+img {
+  max-width: 35%;
+  height: auto;
+}
+
+#tribute-info {
+  text-align: justify;
+}
+
+#link-div {
+  text-align: center;
+}
