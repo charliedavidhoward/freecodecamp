@@ -1,4 +1,4 @@
-Very simple HTML and CSS webpage, chose Yuri Gagarin as the 12th of April was the anniversary of Vostok 1's complete orbit of Earth
+Very simple HTML and CSS webpage, chose to focus the page on Yuri Gagarin as the 12th of April was the anniversary of Vostok 1's complete orbit of Earth
 
 See on Codepen: https://codepen.io/charliedavidhoward/pen/qBRoYbQ
 
