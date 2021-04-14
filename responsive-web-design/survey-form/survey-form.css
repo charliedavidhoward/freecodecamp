@@ -1,0 +1,28 @@
+#title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+#survey-form {
+  background-color: lightblue;
+  padding: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 5%;
+}
+
+.prompt {
+  font-size: 26px;
+  margin-left: 10px;
+  background-color:
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  margin-left: 20px;
+}
