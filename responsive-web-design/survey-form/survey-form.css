@@ -26,3 +26,8 @@ h1 {
 #dropdown {
   margin-left: 20px;
 }
+
+textarea {
+  height: 100px;
+  width: 500px;
+}
