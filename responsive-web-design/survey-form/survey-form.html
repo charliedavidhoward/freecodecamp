@@ -2,47 +2,57 @@
 
 <main>
   <div id="title">
-  <h1 id="title">Feedback Form</h1>
-  <p id="description">Please fill out the form and submit your answers</p>
+    <h1 id="title">Feedback Form</h1>
+    <p id="description">Please fill out the form and submit your answers</p>
   </div>
    
   <form id="survey-form">
-    
     <label id="name-label">
       <p class="prompt"> Name</p>
-    <input id="name" placeholder ="Name" required>
+      <input id="name" placeholder ="Name" required>
     </label>
     
     <label id="email-label">
       <p class="prompt">Email</p>
-    <input placeholder="Email" type="email" id="email" required>
+      <input placeholder="Email" type="email" id="email" required>
     </label>
     
     <label id="number-label">
-      <p class="prompt">Number</p>
-    <input placeholder="Number" type="number" min="0" max="99" id="number" required>
+      <p class="prompt">Age</p>
+      <input placeholder="Number" type="number" min="0" max="99" id="number" required>
     </label>
     
     <p class="prompt">Select your country</p>
     <select id="dropdown">
-      <option>one</option>
-      <option>two</option>
+      <option>England</option>
+      <option>Scotland</option>
+      <option>Northern Ireland</option>
+      <option>Wales</option>
     </select>
     
-    <p class="prompt">How many times per week?</p>
-    <input type="radio" value="one" name="radio" id="one">
-    <label for="one">One</label>
-    <input type="radio" value="two" id="two" name="radio">
-    <label for="two">Two</label>
+    <p class="prompt">How many times per week do you drive?</p>
+      <input type="radio" value="one" name="radio" id="one">
+      <label for="one">One</label>
+      <input type="radio" value="two" id="two" name="radio">
+      <label for="two">Two</label>
+      <input type="radio" value="three" id="three" name=radio>
+      <label for="three">Three</label>
+      <input type="radio" value="four-plus" id="four-plus" name="radio">
+      <label for="four-plus">Four</label>
     
     <p class="prompt">What drinks do you like?</p>
-    <input type="checkbox" id="checkbox-one" value="checkbox-one">
-    <label for="checkbox-one">one</label>
-    <input type="checkbox" id="checkbox-two" value="checkbox-two">
-    <label for="checkbox-two">two</label>
+      <input type="checkbox" id="water" value="water">
+      <label for="water">Water</label>
+      <input type="checkbox" id="pepsi" value="pepsi">
+      <label for="pepsi">Pepsi</label>
+      <input type="checkbox" id="pepper" value="pepper">
+      <label for="pepper">Dr Pepper</label>
       
     <p class="prompt"> Enter any additional comments:</p>
-    <textarea>Additional comments</textarea>
-    <button id="submit">Submit form</button>
+      <textarea>Additional comments</textarea>
+    
+    <div>
+      <button id="submit">Submit form</button>
+    </div>
   </form>
 </main>
