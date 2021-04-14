@@ -1,37 +1,47 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 <main>
-  <h1 id="title">Feedback form</h1>
-  <p id="description">Please use this form to give your feedback</p>
+  <div id="title">
+  <h1 id="title">Feedback Form</h1>
+  <p id="description">Please fill out the form and submit your answers</p>
+  </div>
+   
   <form id="survey-form">
     
     <label id="name-label">
+      <p class="prompt"> Name</p>
     <input id="name" placeholder ="Name" required>
     </label>
     
     <label id="email-label">
+      <p class="prompt">Email</p>
     <input placeholder="Email" type="email" id="email" required>
     </label>
     
     <label id="number-label">
+      <p class="prompt">Number</p>
     <input placeholder="Number" type="number" min="0" max="99" id="number" required>
     </label>
     
+    <p class="prompt">Select your country</p>
     <select id="dropdown">
       <option>one</option>
       <option>two</option>
     </select>
     
+    <p class="prompt">How many times per week?</p>
     <input type="radio" value="one" name="radio" id="one">
     <label for="one">One</label>
     <input type="radio" value="two" id="two" name="radio">
     <label for="two">Two</label>
     
+    <p class="prompt">What drinks do you like?</p>
     <input type="checkbox" id="checkbox-one" value="checkbox-one">
     <label for="checkbox-one">one</label>
     <input type="checkbox" id="checkbox-two" value="checkbox-two">
     <label for="checkbox-two">two</label>
       
+    <p class="prompt"> Enter any additional comments:</p>
     <textarea>Additional comments</textarea>
     <button id="submit">Submit form</button>
   </form>
