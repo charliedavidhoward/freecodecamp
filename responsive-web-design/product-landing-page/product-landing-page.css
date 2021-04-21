@@ -118,3 +118,47 @@ nav > ul {
   border:0;
   background-color: red;
 }
+
+#selection {
+  margin-top: 0px;
+}
+
+.grid {
+  display: flex;
+}
+
+#selection .icon > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  max-height: 100px;
+  width: 20vw;
+  margin-left: 50px;
+  border-radius: 8px;
+}
+
+@media (max-width: 650px) {
+  #selection .icon {
+    display: none;
+  }
+}
+
+#selection .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 80vw;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  #selection .description {
+    text-align: center;
+    margin:0;
+    background-color: red;
+    width: 100%;
+  }
+}
