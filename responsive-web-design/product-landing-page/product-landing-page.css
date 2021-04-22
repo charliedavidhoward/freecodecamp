@@ -6,6 +6,11 @@
 
 li {
   list-style: none;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -158,7 +163,39 @@ nav > ul {
   #selection .description {
     text-align: center;
     margin:0;
-    background-color: red;
     width: 100%;
   }
+}
+
+#contact {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: grey;
+  color: white;
+}
+
+#list-links {
+  display: flex;
+  flex-direction: row;
+}
+
+#list-links > p {
+  padding: 20px;
 }
