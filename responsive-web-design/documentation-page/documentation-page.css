@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+code {
+  background-color: grey;
+}
+
+#main-doc {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  #main-doc {
+    flex-direction: column;
+  }
+  #navbar {
+    border-bottom: 2px solid black;
+  }
+}
+
+#documentation {
+  margin-left: 10px;
+}
+
+#navbar {
+  padding: 10px;
+  border-right: 2px solid black;
+  width: 100%;
+}
