@@ -20,6 +20,11 @@ code {
   margin-left: 31vw;
 }
 
+#documentation > section > header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
 #navbar {
   padding: 10px;
   border-right: 2px solid black;
@@ -33,6 +38,20 @@ code {
   overflow-x: hidden;
 }
 
+#siteheader {
+  text-align: center;
+}
+
+header > p {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+code {
+  margin-left: 20px;
+}
+
 @media (max-width: 700px) {
   #navbar {
     border-bottom: 2px solid black;
@@ -43,5 +62,10 @@ code {
   }
   #main-doc {
     margin-top: 200px;
+  }
+  
+  #documentation {
+    margin-left:10px;
+    margin-right: 10px;
   }
 }
