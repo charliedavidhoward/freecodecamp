@@ -15,16 +15,6 @@ code {
   display: flex;
 }
 
-@media (max-width: 700px) {
-  #main-doc {
-    display: flex;
-    flex-direction: column;
-  }
-  #navbar {
-    border-bottom: 2px solid black;
-    border-right: 0;
-  }
-}
 
 #documentation {
   margin-left: 31vw;
@@ -41,4 +31,17 @@ code {
   left: 0;
   background-color: grey;
   overflow-x: hidden;
+}
+
+@media (max-width: 700px) {
+  #navbar {
+    border-bottom: 2px solid black;
+    border-right: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+  }
+  #main-doc {
+    margin-top: 200px;
+  }
 }
