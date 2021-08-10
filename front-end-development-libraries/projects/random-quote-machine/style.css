@@ -1,1 +1,7 @@
-// placeholder
+body {
+  background-color: red;
+}
+
+.box {
+  background-color: white;
+}
