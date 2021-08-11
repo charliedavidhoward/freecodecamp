@@ -36,13 +36,22 @@ class App extends React.Component {
     
     const quote = quotes[index];
     
+    const tweetURL = 'https://twitter.com/intent/tweet?text=${quote.quote} - ${quote.author}';
+    
     return(
       <div className="d-flex justify-content-center vh-100 align-items-center">
         <div className="col-6 box p-5 rounded">
-            <p>quote</p>
+            {
+               quote && (
+                 <div className="mb-4">
+                   <p>{quote.quote}</p>
+                   <p className="d-block text-right">-- {quote.author}</p>
+                   </div>
+                 )
+            }
              <div className="d-flex justify-content-between">
-              <button className="btn btn-primary">New Quote</button>
-              <a href="#" className="btn btn-primary">Twitter</a>
+              <button className="btn btn-primary" onClick={this.getRandomIndex}>New Quote</button>
+              <a href={tweetURL} target="_blank" className="btn btn-primary">Twitter</a>
                <a href="#"className="btn btn-primary">Tumblr</a>
              </div>
          </div>
